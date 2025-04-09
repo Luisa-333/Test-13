@@ -21,8 +21,8 @@ namespace Test {
             bob.printValues();
 
             Robot killer = new Robot();
-            bob.setValues("Killer", 1000, new byte [] {35, 25, 46});
-            bob.printValues();
+            killer.setValues("Killer", 1000, new byte [] {35, 25, 46});
+            killer.printValues();
         }
     }
 }
